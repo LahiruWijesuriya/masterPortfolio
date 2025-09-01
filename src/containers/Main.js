@@ -16,15 +16,17 @@ export default class Main extends Component {
       <BrowserRouter basename="/">
         <Switch>
           <Route
+            // path="/"
+            // exact
+            // render={(props) =>
+            //   settings.isSplash ? (
+            //     <Splash {...props} theme={this.props.theme} />
+            //   ) : (
+            //     <Home {...props} theme={this.props.theme} />
+            //   )
+            // }
             path="/"
-            exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
-                <Home {...props} theme={this.props.theme} />
-              )
-            }
+            render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
             path="/home"
