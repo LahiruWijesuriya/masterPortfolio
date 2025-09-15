@@ -66,9 +66,9 @@ Brand Blue Dark:
 - Usage: Hover states, pressed states
 
 Brand Blue Light:
-- HEX: #E6F2FF
-- RGB: 230, 242, 255
-- HSL: 210, 100%, 95%
+- HEX: #e3f4ff
+- RGB: 227, 244, 255
+- HSL: 204, 100%, 95%
 - Usage: Light backgrounds, subtle highlights
 ```
 

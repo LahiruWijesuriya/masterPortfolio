@@ -26,7 +26,8 @@
       "Bash(apt list:*)",
       "Bash(npx playwright test:*)",
       "Bash(tree:*)",
-      "WebFetch(domain:www.linkedin.com)"
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(npm start)"
     ],
     "deny": [],
     "ask": [],

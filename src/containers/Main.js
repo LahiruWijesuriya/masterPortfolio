@@ -26,6 +26,7 @@ export default class Main extends Component {
             //   )
             // }
             path="/"
+            exact
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
@@ -45,12 +46,14 @@ export default class Main extends Component {
               <Education {...props} theme={this.props.theme} />
             )}
           />
+          {/* Temporarily disabled - Open Source Route
           <Route
             path="/opensource"
             render={(props) => (
               <Opensource {...props} theme={this.props.theme} />
             )}
           />
+          */}
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
@@ -63,10 +66,12 @@ export default class Main extends Component {
             />
           )}
 
+          {/* Temporarily disabled - Projects Route
           <Route
             path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
           />
+          */}
           <Route
             path="*"
             render={(props) => <Error404 {...props} theme={this.props.theme} />}
